@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolución Verde: Las 7R</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00e676, #00b0ff);
+            color: #121212;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 0 20px #00e676;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .r-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .r-item {
+            background-color: #1f1f1f;
+            border-left: 5px solid #00e676;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, border-left-color 0.3s ease;
+        }
+
+        .r-item:hover {
+            transform: translateY(-5px);
+            border-left-color: #00b0ff;
+        }
+
+        .r-item h2 {
+            margin-top: 0;
+            color: #00e676;
+        }
+
+        .media-section {
+            margin-top: 60px;
+        }
+
+        .media-section h2 {
+            border-bottom: 2px solid #00b0ff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        img, video {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #00e5ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1b1b1b;
+            color: #bbb;
+            padding: 30px 10px;
+            margin-top: 60px;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Revolución Verde: Las 7R</h1>
+    <p>Redefiniendo el futuro del planeta con acción consciente 🌍</p>
+</header>
+
+<main class="container">
+
+    <section class="r-grid">
+        <div class="r-item">
+            <h2>1. Rediseñar</h2>
+            <p>Transformar la forma en que se conciben los productos, pensando desde su origen en el medio ambiente.</p>
+        </div>
+        <div class="r-item">
+            <h2>2. Reducir</h2>
+            <p>Disminuir el consumo innecesario es clave para preservar los recursos naturales.</p>
+        </div>
+        <div class="r-item">
+            <h2>3. Reutilizar</h2>
+            <p>Extender la vida útil de los objetos ayuda a evitar residuos prematuros.</p>
+        </div>
+        <div class="r-item">
+            <h2>4. Reparar</h2>
+            <p>Arreglar lo dañado en vez de desecharlo reduce nuestra huella ecológica.</p>
+        </div>
+        <div class="r-item">
+            <h2>5. Renovar</h2>
+            <p>Modernizar productos antiguos les da una nueva utilidad sin generar residuos.</p>
+        </div>
+        <div class="r-item">
+            <h2>6. Recuperar</h2>
+            <p>Recuperar materiales útiles es parte de un ciclo sostenible.</p>
+        </div>
+        <div class="r-item">
+            <h2>7. Reciclar</h2>
+            <p>Separar, procesar y reutilizar materiales para evitar la contaminación.</p>
+        </div>
+    </section>
+
+ <section class="media-section">
+        <h2>Exploren más, fans</h2>
+        <ul>
+            <li><a href="https://www.ecologiaverde.com/que-son-las-7-erres-del-reciclaje-2674.html" target="_blank">Descubre las 7R con Ecología Verde</a></li>
+            <li><a href="https://www.greenpeace.org/mexico/" target="_blank">Actúa con Greenpeace México</a></li>
+<li> <a href="C:/Users/ALUMNO/Downloads/poblematicamitz.html">problematica </a></li>
+<li> <a href="C:/Users/ALUMNO/Downloads/yaaaa.html">información audio visual </a></li>        
+</ul>
+    </section>
+
+
+
+
+</main>
+
+<footer>
+    Hecho con conciencia ecológica 💚 - Vive, educa y transforma.
+</footer>
+
+</body>
+</html> 
